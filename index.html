@@ -1,36 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Ibrahim S | Portfolio</title>
+<title>Ibrahim | Freelancer Portfolio</title>
 
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 
 <script>
-mermaid.initialize({ startOnLoad: true });
+mermaid.initialize({ startOnLoad:true });
 </script>
 
 <style>
 
 body{
-font-family: 'Segoe UI', Arial, sans-serif;
+font-family:Segoe UI,Arial;
 margin:0;
 background:#0f172a;
 color:#e2e8f0;
 }
 
+nav{
+background:#020617;
+padding:15px;
+text-align:center;
+position:sticky;
+top:0;
+}
+
+nav a{
+color:#38bdf8;
+margin:15px;
+text-decoration:none;
+font-weight:600;
+}
+
 header{
 background:linear-gradient(135deg,#1e293b,#0f172a);
-padding:70px;
+padding:90px 20px;
 text-align:center;
 }
 
 header h1{
-font-size:42px;
+font-size:45px;
 margin:0;
-color:white;
 }
 
 header p{
@@ -46,7 +61,6 @@ padding:70px 20px;
 h2{
 text-align:center;
 margin-bottom:40px;
-color:#f1f5f9;
 }
 
 .cards{
@@ -79,135 +93,176 @@ margin-top:30px;
 text-align:center;
 }
 
+button{
+background:#38bdf8;
+border:none;
+padding:12px 25px;
+border-radius:6px;
+font-weight:bold;
+cursor:pointer;
+}
+
+button:hover{
+background:#0ea5e9;
+}
+
 footer{
 background:#020617;
 text-align:center;
-padding:20px;
+padding:25px;
 color:#94a3b8;
 }
 
-a{
-color:#38bdf8;
-}
-
 </style>
+
 </head>
 
 <body>
 
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#skills">Skills</a>
+<a href="#workflow">Workflow</a>
+<a href="#contact">Contact</a>
+</nav>
+
 <header>
-<h1>Ibrahim S</h1>
-<p>AI Automation | Web Developer | SaaS Builder</p>
+
+<h1>Ibrahim</h1>
+
+<p>Freelancer | Web Developer | AI Automation Specialist</p>
+
 </header>
 
-<section>
+<section id="about">
 
 <h2>About Me</h2>
 
-<p style="text-align:center;max-width:700px;margin:auto;">
-I build AI automation tools, SaaS platforms, and websites for businesses.  
-I focus on creating scalable digital solutions and automation systems.
+<p style="text-align:center;max-width:750px;margin:auto;line-height:1.7">
+
+Hi, I'm <b>Ibrahim</b>, a passionate freelancer helping businesses build their digital presence.
+
+I specialize in website development, AI automation, translation services, and digital business tools. My goal is to create scalable solutions that help clients automate tasks and grow their online business.
+
 </p>
 
 </section>
 
-<section>
+<section id="services">
 
-<h2>Projects</h2>
+<h2>Freelance Services</h2>
 
 <div class="cards">
 
 <div class="card">
-<h3>AI Chatbot</h3>
-<p>Automated chatbot system for customer support.</p>
+<h3>Website Development</h3>
+<p>Professional websites using modern technologies and GitHub Pages hosting.</p>
 </div>
 
 <div class="card">
-<h3>SaaS Platform</h3>
-<p>Digital services platform for Tamil Nadu businesses.</p>
+<h3>Automation Setup</h3>
+<p>Workflow automation using AI tools and integrations.</p>
 </div>
 
 <div class="card">
-<h3>Website Builder</h3>
-<p>Tool to generate websites for small businesses.</p>
+<h3>Translation Services</h3>
+<p>Tamil to English translation and proofreading services.</p>
 </div>
 
 <div class="card">
-<h3>Automation Tools</h3>
-<p>Workflow automation using AI agents.</p>
+<h3>Digital Business Solutions</h3>
+<p>SaaS tools, online platforms and digital service setup.</p>
 </div>
 
 </div>
 
 </section>
 
-<section>
+<section id="skills">
 
-<h2>My Skills Mind Map</h2>
+<h2>Skills Mind Map</h2>
 
 <div class="mermaid">
 
 mindmap
-root((Ibrahim S))
+root((Ibrahim Freelancer))
   Web Development
     HTML
     CSS
     JavaScript
     GitHub Pages
-  AI Automation
-    AI Agents
-    Chatbots
+  Automation
+    AI Tools
     API Integration
-  Business
-    SaaS Platforms
-    Digital Services
-    Tamil Nadu Market
-  Services
-    Translation
+    Workflow Automation
+  Freelance Services
     Website Development
+    Translation
     Automation Setup
+  Digital Business
+    SaaS Platforms
+    Online Services
+    Tamil Nadu Market
 
 </div>
 
 </section>
 
-<section>
+<section id="workflow">
 
 <h2>Project Workflow</h2>
 
 <div class="mermaid">
 
 flowchart LR
-A[Client Contact] --> B[Requirement Discussion]
-B --> C[Planning]
-C --> D[Development]
-D --> E[Testing]
-E --> F[Delivery]
-F --> G[Support & Maintenance]
+A(Client Contact) --> B(Requirement Discussion)
+B --> C(Planning)
+C --> D(Development)
+D --> E(Testing)
+E --> F(Delivery)
+F --> G(Support & Maintenance)
 
 </div>
 
 </section>
 
-<section class="contact">
+<section id="contact" class="contact">
 
 <h2>Contact</h2>
 
 <p>Email: yourmail@gmail.com</p>
 
-<p>GitHub:  
-<a href="https://github.com/ashiqibu1-byte" target="_blank">
-github.com/ashiqibu1-byte
+<p>
+
+<a href="https://ashiqibu1-byte.github.io/Ibrahim/" target="_blank">
+GitHub Portfolio
 </a>
+
 </p>
+
+<p>
+
+<a href="https://ibrahim-freelancer.blogspot.com/" target="_blank">
+Freelancer Blog
+</a>
+
+</p>
+
+<br>
+
+<button onclick="window.location.href='https://ibrahim-freelancer.blogspot.com/'">
+Visit My Blog
+</button>
 
 </section>
 
 <footer>
 
-<p>© 2026 Ibrahim S | Portfolio</p>
+© 2026 Ibrahim | Freelancer Portfolio
 
 </footer>
 
 </body>
+
 </html>
