@@ -1,108 +1,135 @@
-# Ibrahim – Freelancer Portfolio
+# 👨‍💻 Ibrahim – Freelancer Portfolio
 
-🚀 **Live Website:**
-https://ashiqibu1-byte.github.io/Ibrahim/
-
-This repository contains the source code for my personal **freelancer portfolio website**.
-
-The site showcases my **web development, AI automation, translation services, and digital business solutions**.
+Welcome to my personal freelancer portfolio website 🚀
+This project highlights my expertise in **AI Quality Evaluation, Localization QA, and Digital Solutions**.
 
 ---
 
-## 👨‍💻 About Me
+## 🌐 Live Website
 
-Hi, I'm **Ibrahim**, a freelancer specializing in:
-
-* Website Development
-* AI Automation Tools
-* Tamil ↔ English Translation
-* Digital Business Solutions
-* SaaS Platforms
-
-I help businesses build their **online presence and automation systems**.
+👉 https://ashiqibu1-byte.github.io/Ibrahim/
 
 ---
 
-## 🛠️ Services
+## 📌 About Me
 
-* 🌐 Website Development
-* 🤖 Automation Setup
-* 🌍 Translation Services
-* 💼 Digital Business Solutions
+Hi, I'm **Ibrahim**, a detail-oriented freelancer specializing in **AI quality evaluation, multilingual localization, and structured data workflows**.
 
----
-
-## 🧠 Features of this Portfolio
-
-* Responsive portfolio website
-* Skills **Mind Map visualization**
-* Project **Workflow diagram**
-* Modern UI design
-* Hosted using **GitHub Pages**
+I help businesses improve content accuracy, optimize AI systems, and deliver high-quality digital products through structured QA processes.
 
 ---
 
-## 📁 Project Structure
+## 💼 Services
 
-```
-Ibrahim
-│
-├── index.html
-├── README.md
-└── .github
-    └── workflows
-        └── deploy.yml
-```
+### 🌍 Translation & Localization QA
 
----
+High-quality multilingual translation with structured QA checks.
+Expertise in:
 
-## 🚀 Deployment (CI/CD Pipeline)
-
-This project uses **GitHub Actions** to automatically deploy the site to GitHub Pages whenever changes are pushed to the `main` branch.
-
-### Workflow
-
-1. Push code to repository
-2. GitHub Actions builds the project
-3. Site deploys automatically to **GitHub Pages**
+* Terminology validation
+* Intent preservation
+* Cultural accuracy
+* Legal, medical, technical, and IT content
 
 ---
 
-## 🔧 Run Locally
+### 🎧 Transcription & Structured Review
 
-Clone the repository:
+Accurate transcription with strict quality control:
 
-```
-git clone https://github.com/ashiqibu1-byte/Ibrahim.git
-```
-
-Open:
-
-```
-index.html
-```
-
-in your browser.
+* Speaker validation
+* Formatting standards
+* Consistency checks
+* AI-assisted transcription review
 
 ---
 
-## 🔗 Links
+### 🤖 AI Quality Evaluation & LLM Testing
 
-🌐 Portfolio
-https://ashiqibu1-byte.github.io/Ibrahim/
+Advanced AI testing and evaluation services:
 
-📝 Freelancer Blog
-https://ibrahim-freelancer.blogspot.com/
+* Prompt design & optimization
+* Hallucination detection
+* Tone & accuracy validation
+* Model comparison with gold standards
+* Root-cause analysis & error documentation
 
-💻 GitHub Profile
-https://github.com/ashiqibu1-byte
+---
+
+### 🏷️ Data Annotation & Labeling
+
+High-quality dataset preparation for AI models:
+
+* NLP, Machine Translation (MT), ASR, and LLM datasets
+* Guideline-based annotation
+* Edge-case detection
+* Consistent labeling standards
+
+---
+
+### 📚 Digital Publishing & EPUB
+
+Professional eBook and publishing services:
+
+* EPUB creation (standards-compliant)
+* Kindle, Apple Books, Google Play optimization
+* Print-ready formatting
+* Layout structuring
+
+---
+
+### ⚙️ Technical & QA Workflow Support
+
+End-to-end support for AI and localization pipelines:
+
+* QA tools & validation scripts
+* Git-based review workflows
+* Structured documentation
+* Process optimization
+
+---
+
+## 🧠 Skills
+
+* Localization QA & Linguistic Review
+* AI / LLM Evaluation
+* Data Annotation & NLP Tasks
+* EPUB & Digital Publishing
+* HTML, CSS, JavaScript
+* Git & Workflow Automation
+
+---
+
+## 🔄 Project Workflow
+
+1. Requirement Analysis
+2. Data / Content Review
+3. QA & Validation Setup
+4. Execution & Testing
+5. Error Analysis
+6. Delivery
+7. Continuous Improvement
 
 ---
 
 ## 📬 Contact
 
-Email: ashiqibu@gmail.com
+📧 Email: ashiqibu@gmail.com
+
+🌐 Portfolio:
+https://ashiqibu1-byte.github.io/Ibrahim/
+
+📝 Blog:
+https://ibrahim-freelancer.blogspot.com/
 
 ---
 
-© 2026 Ibrahim | Freelancer Portfolio
+## ⭐ Support
+
+If you find this project useful, please ⭐ star the repository and share it!
+
+---
+
+## 📄 License
+
+This project is open-source and free to use.
